@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dagar/workspace/perso/projets/os/nullos/_1/ToDo.cc
+ToDo.h
+/home/dagar/workspace/perso/projets/os/nullos/_1/ToDo.h
+
+/home/dagar/workspace/perso/projets/os/nullos/_1/ToDo.h
+

@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/toDo.dir/kernel.c.o CMakeFiles/toDo.dir/multiboot.s.o  -o toDo -rdynamic 

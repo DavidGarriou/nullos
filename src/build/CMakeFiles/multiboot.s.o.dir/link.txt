@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/multiboot.s.o.dir/multiboot.s.o  -o multiboot.s.o  

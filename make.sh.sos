@@ -1,13 +1,15 @@
 #!/bin/bash -x
 
-SRCDIR="./src/0"
+SRCDIR="./src"
 BUILDDIR="./build"
-
+LINKFILE="linker3.ld"
+CC="/usr/bin/cc"
 #mkdir build
 
-as --32 src/0/boot/grub/multiboot.S -o ${BUILDDIR}/boot.o
+#as --32 src/0/boot/grub/multiboot.S -o ${BUILDDIR}/boot.o
+${CC} -m32 -I${SRCDIR} -c ${SRCDIR}/boot/grub/multiboot.S -o ${BUILDDIR}/boot.o -O2 -Wall -Wextra
 
-gcc -m32 -I${SRCDIR} -c src/0/kernel/kernel.c -o ${BUILDDIR}/kernel.o -std=gnu99 -ffreestanding -O2 -Wall -Wextra
+${CC} -m32 -I${SRCDIR} -c ${SRCDIR}/kernel/kernel.c -o ${BUILDDIR}/kernel.o -std=gnu99 -ffreestanding -O2 -Wall -Wextra
 
-gcc -m32 -I${SRCDIR} -T linker.ld -o ${BUILDDIR}/myos.bin -ffreestanding -O2 -nostdlib ${BUILDDIR}/boot.o ${BUILDDIR}/kernel.o -lgcc -Wl,--build-id=none
+${CC} -m32 -I${SRCDIR} -T ${LINKFILE} -o ${BUILDDIR}/myos.bin -ffreestanding -O2 -nostdlib ${BUILDDIR}/boot.o ${BUILDDIR}/kernel.o -lgcc -Wl,--build-id=none
 

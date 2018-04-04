@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dagar/workspace/perso/projets/os/nullos/_1/kernel.c
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+multiboot.h
+/home/dagar/workspace/perso/projets/os/nullos/_1/multiboot.h
+
+/home/dagar/workspace/perso/projets/os/nullos/_1/multiboot.h
+

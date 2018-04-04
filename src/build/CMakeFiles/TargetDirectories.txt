@@ -1,0 +1,6 @@
+/home/dagar/workspace/perso/projets/os/nullos/_1/build/CMakeFiles/rebuild_cache.dir
+/home/dagar/workspace/perso/projets/os/nullos/_1/build/CMakeFiles/edit_cache.dir
+/home/dagar/workspace/perso/projets/os/nullos/_1/build/CMakeFiles/multiboot.dir
+/home/dagar/workspace/perso/projets/os/nullos/_1/build/CMakeFiles/kernel.dir
+/home/dagar/workspace/perso/projets/os/nullos/_1/build/CMakeFiles/test.dir
+/home/dagar/workspace/perso/projets/os/nullos/_1/build/CMakeFiles/nullos.dir

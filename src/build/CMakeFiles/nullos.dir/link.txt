@@ -1,0 +1,1 @@
+/usr/bin/cc    -T linker3.ld -rdynamic CMakeFiles/multiboot.dir/multiboot.s.o CMakeFiles/kernel.dir/kernel.c.o  -o nullos -m32 -O2 -ffreestanding -nostdlib -lgcc -Wl,--build-id=none 
