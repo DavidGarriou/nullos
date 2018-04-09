@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-BUILDDIR="./src/build"
+BUILDDIR="./build"
 
 mkdir -p ${BUILDDIR}/isodir/boot/grub
 cp ${BUILDDIR}/nullos ${BUILDDIR}/isodir/boot/myos.bin

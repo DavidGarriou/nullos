@@ -7,7 +7,7 @@
 #include <stdint.h>
 //#include <stdarg.h>
 /* Include definitions of the multiboot standard */
-#include "boot/grub/multiboot.h"
+#include "multiboot.h"
  
 /* Check if the compiler thinks we are targeting the wrong operating
  * system. */
